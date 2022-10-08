@@ -5,7 +5,7 @@ config :el_auth, ElAuth.Repo,
   username: "postgres",
   password: "12345678",
   hostname: "localhost",
-  database: "el_auth_dev",
+  database: "el_auth_db",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10

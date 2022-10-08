@@ -7,6 +7,8 @@ defmodule ElAuthWeb.Router do
 
   scope "/api", ElAuthWeb do
     pipe_through :api
+
+    post "/users", UserController, :register
   end
 
   # Enables LiveDashboard only for development
