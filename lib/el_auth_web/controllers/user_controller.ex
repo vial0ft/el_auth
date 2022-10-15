@@ -2,7 +2,6 @@ defmodule ElAuthWeb.UserController do
   use ElAuthWeb, :controller
 
   alias ElAuth.Accounts
-  alias ElAuth.Accounts.User
 
   action_fallback ElAuthWeb.FallbackController
 
